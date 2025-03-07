@@ -1,0 +1,21 @@
+/* Basic Recipe Card Transition */
+.recipe-card-enter {
+  opacity: 0;
+  transform: translateY(20px); /* Optional: Slide up effect */
+}
+
+.recipe-card-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out; /* Added easing */
+}
+
+.recipe-card-exit {
+  opacity: 1;
+}
+
+.recipe-card-exit-active {
+  opacity: 0;
+  transform: translateY(20px); /* Optional: Slide down effect */
+  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out; /* Added easing */
+}
