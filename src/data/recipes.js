@@ -12,7 +12,7 @@ const recipes = [
       contestWinner: false,
       featured: true,
       description: "A simple yet delicious pizza with fresh mozzarella, basil, and tomato sauce on a crispy crust.",
-      imgUrl: "/src/assets/Classic-Margherita-Pizza.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364937/Classic-Margherita-Pizza_u3ik2x.jpg",
   },
   {
       id: 2,
@@ -27,7 +27,7 @@ const recipes = [
       contestWinner: true,
       featured: true,
       description: "Flavorful shrimp tacos with a spicy chipotle marinade, topped with fresh cilantro and lime.",
-      imgUrl: "/src/assets/Spicy-Shrimp-Tacos.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364939/Spicy-Shrimp-Tacos_wf2frv.jpg",
   },
   {
       id: 3,
@@ -42,7 +42,7 @@ const recipes = [
       contestWinner: false,
       featured: false,
       description: "A comforting tomato soup with a creamy texture, served with crispy grilled cheese croutons.",
-      imgUrl: "/src/assets/Creamy-Tomato-Soup-with-Grilled-Cheese-Croutons.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364937/Creamy-Tomato-Soup-with-Grilled-Cheese-Croutons_aqvi6k.jpg",
   },
   {
       id: 4,
@@ -57,7 +57,7 @@ const recipes = [
       contestWinner: false,
       featured: false,
       description: "Simple and satisfying avocado toast topped with everything bagel seasoning and a sprinkle of red pepper flakes.",
-      imgUrl: "/src/assets/Avocado-Toast-with-Everything-Bagel-Seasoning.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364936/Avocado-Toast-with-Everything-Bagel-Seasoning_tceysh.jpg",
   },
   {
       id: 5,
@@ -72,7 +72,7 @@ const recipes = [
       contestWinner: false,
       featured: true,
       description: "A fragrant coconut curry with tender tofu, a medley of colorful vegetables, and a hint of ginger.",
-      imgUrl: "/src/assets/Coconut-Curry-with-Tofu-and-Vegetables.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364937/Coconut-Curry-with-Tofu-and-Vegetables_xp597m.jpg",
   },
   {
       id: 6,
@@ -87,7 +87,7 @@ const recipes = [
       contestWinner: false,
       featured: true,
       description: "A refreshing and nutritious smoothie with sweet blueberries, creamy banana, and a splash of almond milk.",
-      imgUrl: "/src/assets/Blueberry-Banana-Smoothie.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364936/Blueberry-Banana-Smoothie_vyl39t.jpg",
   },
   {
       id: 7,
@@ -102,7 +102,7 @@ const recipes = [
       contestWinner: true,
       featured: true,
       description: "Perfectly grilled salmon with a bright and zesty lemon-dill sauce, served with roasted asparagus.",
-      imgUrl: "/src/assets/Grilled-Salmon-with-Lemon-Dill-Sauce.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364937/Grilled-Salmon-with-Lemon-Dill-Sauce_bus5xm.jpg",
   },
   {
       id: 8,
@@ -117,7 +117,7 @@ const recipes = [
       contestWinner: false,
       featured: true,
       description: "A creamy and comforting risotto with earthy mushrooms, fresh spinach, and a sprinkle of Parmesan cheese.",
-      imgUrl: "/src/assets/Mushroom-and-Spinach-Risotto.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364936/Mushroom-and-Spinach-Risotto_bwdhhz.jpg",
   },
   {
       id: 9,
@@ -132,7 +132,7 @@ const recipes = [
       contestWinner: false,
       featured: true,
       description: "Savory chicken enchiladas smothered in a tangy and flavorful green sauce, topped with melted cheese.",
-      imgUrl: "/src/assets/Chicken-Enchiladas-with-Green-Sauce.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364937/Chicken-Enchiladas-with-Green-Sauce_w5tslo.jpg",
   },
   {
       id: 10,
@@ -147,7 +147,7 @@ const recipes = [
       contestWinner: false,
       featured: false,
       description: "A hearty and flavorful lentil soup with a bright lemon flavor and fresh herbs.",
-      imgUrl: "/src/assets/Lentil-Soup-with-Lemon-and-Herbs.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364939/Lentil-Soup-with-Lemon-and-Herbs_zuhc5t.jpg",
   },
   {
       id: 11,
@@ -162,7 +162,7 @@ const recipes = [
       contestWinner: false,
       featured: false,
       description: "A warm and comforting bowl of oatmeal with creamy peanut butter, sliced banana, and a drizzle of honey.",
-      imgUrl: "/src/assets/Peanut-Butter-Banana-Oatmeal.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364938/Peanut-Butter-Banana-Oatmeal_tewrpt.jpg",
   },
   {
       id: 12,
@@ -177,7 +177,7 @@ const recipes = [
       contestWinner: true,
       featured: true,
       description: "A colorful and flavorful vegetable stir-fry with tender noodles and a savory sauce.",
-      imgUrl: "/src/assets/Vegetable-Stir-Fry-with-Noodles.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364939/Vegetable-Stir-Fry-with-Noodles_jk1a3x.jpg",
   },
   {
       id: 13,
@@ -192,7 +192,7 @@ const recipes = [
       contestWinner: false,
       featured: true,
       description: "Fluffy and light pancakes with a hint of lemon and creamy ricotta cheese.",
-      imgUrl: "/src/assets/Lemon-Ricotta-Pancakes.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364938/Lemon-Ricotta-Pancakes_v8kpcp.jpg",
   },
   {
       id: 14,
@@ -207,7 +207,7 @@ const recipes = [
       contestWinner: false,
       featured: true,
       description: "Hearty black bean burgers with a smoky chipotle mayo, served on toasted buns with your favorite toppings.",
-      imgUrl: "/src/assets/Black-Bean-Burgers-with-Chipotle-Mayo.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364937/Black-Bean-Burgers-with-Chipotle-Mayo_mffckv.jpg",
   },
   {
       id: 15,
@@ -222,7 +222,7 @@ const recipes = [
       contestWinner: false,
       featured: false,
       description: "A seasonal smoothie with the flavors of pumpkin spice latte, blended with banana, yogurt, and a touch of maple syrup.",
-      imgUrl: "/src/assets/Pumpkin-Spice-Latte-Smoothie.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364938/Pumpkin-Spice-Latte-Smoothie_zno7qg.jpg",
   },
   {
       id: 16,
@@ -237,7 +237,7 @@ const recipes = [
       contestWinner: true,
       featured: true,
       description: "A Spanish classic with saffron-infused rice, shrimp, mussels, clams, and chorizo.",
-      imgUrl: "/src/assets/Seafood-Paella.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364939/Seafood-Paella_rcafw7.jpg",
   },
   {
       id: 17,
@@ -252,7 +252,7 @@ const recipes = [
       contestWinner: false,
       featured: false,
       description: "A hearty Italian soup packed with seasonal winter vegetables and small pasta shells.",
-      imgUrl: "/src/assets/Winter-Vegetable-Minestrone.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364939/Winter-Vegetable-Minestrone_i3wa2x.jpg",
   },
   {
       id: 18,
@@ -267,7 +267,7 @@ const recipes = [
       contestWinner: false,
       featured: true,
       description: "A vibrant and flavorful pasta dish tossed with homemade pesto and sweet cherry tomatoes.",
-      imgUrl: "/src/assets/Pesto-Pasta-with-Cherry-Tomatoes.jpg",
+      imgUrl: "https://res.cloudinary.com/dvtkalycg/image/upload/v1741364938/Pesto-Pasta-with-Cherry-Tomatoes_pun1ek.jpg",
   }
 ];
 export default recipes;
